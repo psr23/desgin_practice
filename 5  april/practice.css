@@ -1,0 +1,69 @@
+.box1 {
+    background-color: cadetblue;
+    padding: 30px;
+    border: 4px solid purple;
+    margin: 20px;
+    border-radius: 25px;
+    width: 50%;
+}
+
+.box2 {
+    background-color: rgb(49, 183, 224);
+    padding: 30px;
+    border: 10px solid blue;
+    margin-top: 20px;
+    margin-left: 400px;
+    border-radius: 20px;
+    width: 50%;
+    height: 90px;
+}
+
+.box3 {
+    background-color: snow;
+    border: 6px solid brown;
+    padding: 30px;
+    border-radius: 10px;
+    width: 600px;
+    margin: auto;
+    height: 100px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.center1 {
+    border: 6px solid green;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: rgb(80, 75, 75);
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.spa {
+    color: green;
+    font-style: italic;
+}
+
+.visually-hidden {
+    border-width: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    white-space: nowrap !important;
+    width: 1px !important;
+}
+
+.box4 {
+    border: 40px solid grey;
+    background-color: rgb(173, 169, 169);
+    padding: 35ZXcvbnm+4510px;
+}

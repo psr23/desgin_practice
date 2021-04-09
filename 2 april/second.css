@@ -38,3 +38,29 @@ body {
 .ram {
     font-family: "Audiowide", sans-serif;
 }
+
+.square {
+    list-style-type: square;
+}
+
+.prem {
+    background: cadetblue;
+    padding: 20px;
+}
+
+.m {
+    border: 3px solid blue;
+}
+
+.roman {
+    background: #ff888f;
+    padding: 10px;
+}
+
+.add li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+.rawat {}

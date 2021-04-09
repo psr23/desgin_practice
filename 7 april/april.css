@@ -1,0 +1,98 @@
+body {
+    background-position: right top;
+    background-size: 300px 280px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.a {
+    background-color: rgb(218, 129, 129);
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    border-radius: 8px;
+}
+
+.b {
+    height: 300px;
+    width: 250px;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+::selection {
+    color: cyan;
+    background: darkgrey;
+}
+
+.c {
+    position: left top;
+}
+
+::first-letter {
+    color: rgb(252, 248, 2);
+    font-size: xx-large;
+}
+
+img {
+    opacity: 1.0;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+.div1 {
+    background-color: rgb(8, 4, 247);
+    padding: 10px;
+}
+
+.d {
+    background-color: rgb(212, 56, 56);
+}
+
+.e {
+    display: inline-block;
+}
+
+.g {
+    background: url("C:/Users/Prashant Singh Rawat/Desktop/phone.jpg") repeat;
+    border: 2px solid rgb(236, 7, 7);
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.h {
+    margin-left: 300px;
+    margin-right: 300px;
+    color: midnightblue;
+    font-weight: bold;
+}
+
+.i {
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: olive;
+    border: 1px solid black;
+}
+
+
+/* use for vbutton j class */
+
+.j {
+    background-color: chartreuse;
+    color: darkblue;
+    padding: 20px;
+    cursor: pointer;
+    margin-right: 0px;
+    margin-top: 20px;
+    /* margin-left: 0px; */
+}

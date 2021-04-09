@@ -1,0 +1,82 @@
+/* for gapping in email id */
+
+.a {
+    float: right;
+}
+
+.b {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+body {
+    background-image: url(aa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.c {
+    display: inline-block;
+}
+
+.h {
+    width: 20px;
+    height: 50px;
+    background: rgb(179, 248, 170);
+    transition: width 2s, heigh 4s;
+}
+
+.hi:hover {
+    width: 300px;
+    height: 50px;
+    opacity: 0.5;
+}
+
+.hij {
+    padding-top: 12px;
+}
+
+.k {
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width: 150px;
+    background-color: rgb(145, 148, 151);
+}
+
+.li {
+    display: block;
+    color: rgb(10, 10, 10);
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: teal;
+    color: yellow;
+}
+
+.z {
+    width: 200px;
+    height: 100px;
+    background-color: cadetblue;
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+@keyframes example {
+    0% {
+        background-color: coral;
+    }
+    25% {
+        background-color: blue
+    }
+    50% {
+        background-color: darkgreen;
+    }
+    100% {
+        background-color: darkorange;
+    }
+}
