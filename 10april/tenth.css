@@ -1,0 +1,100 @@
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+    /* use for box in raw */
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 80%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    /* use for also box */
+}
+
+.a {
+    text-align: center;
+    color: darkgreen;
+    font-size: larger;
+    /* use for what is ur name */
+}
+
+.b {
+    background-color: rgb(247, 213, 101);
+    width: 50%;
+    height: 100px;
+    padding-top: 4px;
+    /* usse for coffee */
+}
+
+.c {
+    background-color: rgb(154, 158, 154);
+    width: 90%;
+    height: 70px;
+    margin-left: 15px;
+    padding-top: 1px;
+}
+
+body {
+    background-color: rgb(241, 148, 198);
+}
+
+@media screen and (min-width:480px) {
+    #leftsidebar {
+        width: 200px;
+        float: left;
+    }
+    #main {
+        margin: left 216px;
+    }
+}
+
+.div {
+    width: 70px;
+    height: 40px;
+    background: greenyellow;
+    transition: 15s;
+    opacity: 0.4;
+}
+
+.div:hover {
+    width: 50%;
+}
+
+.p {
+    width: 60px;
+    height: 30px;
+    background: indigo;
+    transition: width 5s, height 12s;
+    opacity: 0.8;
+}
+
+.p:hover {
+    width: 150px;
+    height: 200px;
+}
+
+.Z {
+    width: 40PX;
+    height: 20px;
+    background: maroon;
+    transition: 5s;
+    transition-delay: 2s;
+}
+
+.z:hover {
+    width: 100px;
+    height: 100px;
+}
+
+.button {
+    background-color: gold;
+    color: gray;
+    padding: 12px 15px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
