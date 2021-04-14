@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(12, 31, 136);
+    color: rgb(250, 227, 227);
+}
+
+
+/*use for PSR line */
+
+.a {
+    font-size: 60px;
+    border-bottom: 0.5px solid black;
+    margin-left: 10px;
+    box-shadow: 2px;
+    box-shadow: 4px solid black;
+}
+
+
+/* for <li> come in colum */
+
+.b {
+    display: inline-block;
+}
+
+
+/* property c or d use for home,projects,contact k liye */
+
+.c {
+    float: right;
+    margin-top: -90px;
+    margin-right: 300px;
+    font-size: x-large;
+}
+
+.d {
+    text-indent: 40px;
+}
+
+
+/* this is use for hi, my name is k liye (e) */
+
+.e {
+    margin-left: 320px;
+    color: rgb(139, 172, 235);
+    font-size: 40px;
+}
+
+
+/* use for name  */
+
+.f {
+    color: e5e5e5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 320px;
+    font-size: 50px;
+}
+
+
+/* use for name after next line */
+
+.g {
+    color: e5e5e5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 320px;
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+
+/* use for details */
+
+.h {
+    margin-left: 320px;
+    font-size: x-large;
+}
